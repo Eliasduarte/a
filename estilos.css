@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Rosa claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+h1 {
+    color: #c2185b; /* Rosa */
+}
+
+p {
+    color: #880e4f; /* Rosa oscuro */
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.corazon {
+    font-size: 100px;
+    color: #f44336; /* Rojo */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.corazon:hover {
+    transform: scale(1.2);
+}
+
+.contenido-debajo {
+    text-align: center;
+    margin-top: 30px; /* Espacio entre el contenedor principal y el contenedor del botón y el texto */
+}
